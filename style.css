@@ -1,13 +1,12 @@
 Table {
-  background-color: #f2f2f2; /* Light gray background for the entire table */
-  border-collapse: collapse; /* Optional: Collapses borders between cells */
-  width: 100%; /* Optional: Sets table width */
+  background-color: #f2f2f2; 
+  border-collapse: collapse; 
+  width: 100%; 
 }
 
-/* Optional: Style for table headers */
 th {
-  background-color: #4CAF50; /* Green background for headers */
-  color: white; /* White text color for headers */
+  background-color: #ADD8E6; /* Green background for headers */
+  color: grey; /* White text color for headers */
   padding: 8px;
 }
 
