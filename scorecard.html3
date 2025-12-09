@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+<style>
+      tr:first-child {
+      background-color: lightblue;
+    }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<body>
+
+<h2>Football</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Team</th>
+    <th>1st Quarter</th>
+    <th>2nd Quarter</th>
+    <th>3rd Quarter</th>
+    <th>4th Quarter</th>
+  </tr>
+  <tr>
+    <td>New Orlean Saints</td>
+    <td>6</td>
+    <td>12</td>
+    <td>12</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>New England Patriets</td>
+    <td>6</td>
+    <td>12</td>
+    <td>12</td>
+    <td>12</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
