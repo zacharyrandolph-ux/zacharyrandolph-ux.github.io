@@ -26,7 +26,7 @@ tr:hover {
   background-color: #d9d9d9; /* Darker gray on hover */
 }
     tr:first-child {
-      background-color: lightblue;
+      background-color: darkblue;
     }
 button:hover {
   background-color: #0056b3; /* Darker blue on hover */
