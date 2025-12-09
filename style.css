@@ -28,6 +28,6 @@ tr:hover {
     tr:first-child {
       background-color: darkblue;
     }
-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  cursor: pointer;
+tr:hover {
+  background-color: blue;
+}
