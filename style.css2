@@ -1,76 +1,50 @@
-/* styles.css: This file is linked to all HTML pages */
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-    font-family: sans-serif;
-    line-height: 1.5; /* Good readability */
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark text for contrast */
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+h2, p {
+  margin: 10px;
 }
 
-header {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-h1 {
-    color: #0056b3; /* Main color */
+ul li {
+  float: left;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+ul li a:hover {
+  background-color: #111111;
 }
+</style>
+</head>
+<body>
 
-nav ul li a {
-    text-decoration: none;
-    color: #0056b3;
-    font-weight: bold;
-    padding: 5px;
-    /* Visible focus indicator for keyboard users */
-    outline: 2px solid transparent; 
-}
-
-nav ul li a:hover, nav ul li a:focus {
-    text-decoration: underline;
-    outline: 2px solid #0056b3;
-}
-
-main {
-    padding-top: 20px;
-    min-height: 400px;
-}
-
-footer {
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #666;
-}
-
-/* Accessibility: High contrast for links in main content */
-main a {
-    color: #aa0000;
-    text-decoration: underline;
-}
-
-main a:hover, main a:focus {
-    color: #ff0000;
-    outline: 2px solid #ff0000;
-}
+<ul>
+  <li><a href="indexfile.html">Index</a></li>
+  <li><a href="1.html"> <link rel="stylesheet" href="style.css" />Home</a></li>  
+  <li><a href="2.html">Staff</a></li>
+  <li><a href="3.html">Rating</a></li>
+  <li><a href="4.html">Stats</a></li>
+</ul>
+</style>
+</head>
+<body>
