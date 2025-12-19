@@ -1,0 +1,76 @@
+/* styles.css: This file is linked to all HTML pages */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5; /* Good readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for contrast */
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #0056b3; /* Main color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    padding: 5px;
+    /* Visible focus indicator for keyboard users */
+    outline: 2px solid transparent; 
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    text-decoration: underline;
+    outline: 2px solid #0056b3;
+}
+
+main {
+    padding-top: 20px;
+    min-height: 400px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Accessibility: High contrast for links in main content */
+main a {
+    color: #aa0000;
+    text-decoration: underline;
+}
+
+main a:hover, main a:focus {
+    color: #ff0000;
+    outline: 2px solid #ff0000;
+}
